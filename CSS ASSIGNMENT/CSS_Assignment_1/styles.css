@@ -1,0 +1,13 @@
+body{
+    background-image: url("backgrounds.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+}
+.edit{
+    font-family: algerian;
+    color: #99722b;
+    position: relative;
+    left: 85px;
+    top: 60px;
+
+}
