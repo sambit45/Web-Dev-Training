@@ -1,0 +1,19 @@
+.string{
+    width:280px;
+    font-size:18px;
+}
+.string1{
+    width:280px;
+    font-size:21px;
+    color:darkslategrey;
+}
+table{
+    width:120px;
+    margin:0 auto;
+    padding:29px;
+    column-gap: 420px;
+}
+.button{
+    font-size:15px;
+
+}
