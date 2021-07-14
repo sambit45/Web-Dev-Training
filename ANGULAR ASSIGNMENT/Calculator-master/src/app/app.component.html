@@ -1,0 +1,30 @@
+
+<div class="divv">
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">CALCULATOR</span>
+    <br><br>
+  </div>
+</nav>
+<form>
+  <div class="form-group text">
+    <input type="number" class="form-control" placeholder="Enter First Number Here" name="num1" [(ngModel)]="num1"><br>
+    <input type="number" class="form-control" placeholder="Enter Second Number Here" name="num2" [(ngModel)]="num2">
+  </div>
+  </form>
+  <div class="row" style="text-align: center;">
+    <div class="col">
+      <button (click) = "add()" class="btn btn-primary butt" type="submit">ADD</button>
+      <button (click) = "sub()" class="btn btn-primary butt" type="submit">SUBTRACT</button>
+      <button (click) = "mul()" class="btn btn-primary butt" type="submit">MULTIPLY</button>
+      <button (click) = "div()" class="btn btn-primary butt" type="submit">DIVIDE</button>
+    </div>
+<p class="res"> <br><br><i><strong> Answer : {{ num3 }} </strong></i></p>
+  </div>
+  <nav class="navbar fixed-bottom navbar-dark bg-dark">
+    <a class="navbar-brand">Sambit Kumar Bhanjadeo</a>
+  </nav>
+
+</div>
+
+<router-outlet></router-outlet>
